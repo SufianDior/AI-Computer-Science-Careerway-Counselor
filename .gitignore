@@ -1,0 +1,22 @@
+
+# Private databases
+*.db
+*.db-shm
+*.db-wal
+
+# API keys and environment variables
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Local backups
+*_backup.py
